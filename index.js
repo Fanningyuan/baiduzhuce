@@ -40,7 +40,7 @@ $(function() {
     //手机号验证
     $phone.blur(()=>{
         if(!(/^\d{11}$/.test($phone.val()))){
-            $phonem.html('手机号格式不正确!');
+            $phonem.html('手机号格式不正确');
         }else{
             $phonem.html('');
             phoneres = true;
